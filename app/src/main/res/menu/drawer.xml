@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context=".MainActivity">
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/navigation_item_feed"
+            android:icon="@drawable/feed"
+            android:title="@string/feed" />
+        <item
+            android:id="@+id/navigation_item_rss"
+            android:icon="@drawable/rss"
+            android:title="@string/rss" />
+        <item
+            android:id="@+id/navigation_item_setting"
+            android:icon="@drawable/setting"
+            android:title="@string/setting" />
+    </group>
+</menu>
